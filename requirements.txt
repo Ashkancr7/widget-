@@ -1,2 +1,19 @@
-fastapi
+fastapi==0.110.0
 uvicorn[standard]==0.29.0
+python-dotenv==1.0.1
+pydantic==2.7.1
+
+# LlamaIndex core and OpenAI
+llama-index==0.10.28
+llama-index-core==0.10.28
+llama-index-llms-openai==0.1.14
+llama-index-agent-openai==0.1.5
+llama-index-question-gen-openai==0.1.4
+llama-index-embeddings-openai==0.1.6
+llama-index-program-openai==0.1.4
+llama-index-multi-modal-llms-openai==0.1.2
+llama-index-readers-file==0.1.8
+llama-index-readers-llama-parse==0.1.5
+llama-index-cli==0.1.12
+llama-index-indices-managed-llama-cloud==0.1.7
+llama-index-legacy==0.9.48
