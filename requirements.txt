@@ -3,12 +3,11 @@ uvicorn[standard]==0.29.0
 python-dotenv==1.0.1
 pydantic==2.7.1
 
-# LlamaIndex core and OpenAI
 llama-index==0.10.28
 llama-index-core==0.10.28
 llama-index-llms-openai==0.1.14
 llama-index-agent-openai==0.1.5
-llama-index-question-gen-openai==0.1.4
+llama-index-question-gen-openai==0.3.1
 llama-index-embeddings-openai==0.1.6
 llama-index-program-openai==0.1.4
 llama-index-multi-modal-llms-openai==0.1.2
